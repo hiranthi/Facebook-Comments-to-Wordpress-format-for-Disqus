@@ -21,7 +21,7 @@ http://mysite/the-page-name/?paged=6
 
 after you've gotten all the items, wrap the file in the below xml tags.
 
-<?xml version="1.0" encoding="UTF-8"?>
+`<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0"
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:dsq="http://www.disqus.com/"
@@ -30,6 +30,6 @@ after you've gotten all the items, wrap the file in the below xml tags.
 ><channel>
 <-- put outputted items here -->
 </channel>
-</rss>
+</rss>`
 
 you can now upload this file to disqus to import your facebook comments.
