@@ -21,15 +21,15 @@ http://mysite/the-page-name/?paged=6
 
 after you've gotten all the items, wrap the file in the below xml tags.
 
-`<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
+`<?xml version="1.0" encoding="UTF-8"?>`
+`<rss version="2.0"
   xmlns:content="http://purl.org/rss/1.0/modules/content/"
   xmlns:dsq="http://www.disqus.com/"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:wp="http://wordpress.org/export/1.0/"
-><channel>
-<-- put outputted items here -->
-</channel>
-</rss>`
+><channel>`
+PUT YOUR OUTPUTTED ITEMS HERE
+`</channel>`
+`</rss>`
 
 you can now upload this file to disqus to import your facebook comments.
